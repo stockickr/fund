@@ -1,8 +1,393 @@
 //@import '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css'
 @import 'http://stockickr.com/news/css/screen.css'
 @import 'http://stockickr.com/g/4a6e868cfce70f/stylesheets/f/fonts.css'
+
+.crowd-page
+  //position absolute
+  top 0
+  left 0
+  right 0
+  margin 0
+
+.div1
+  width 400px 
+  height 400px
+  margin-left auto
+  margin-right auto
+  border 2px solid 
+  border-radius 25px
+
+.div2
+  float right
+  height 400px
+  width 200px
+  border 2px solid 
+  border-radius 25px
+
+.donate
+  border 2px solid 
+  border-radius 25px
+  
+
+  //utilities
+.s10
+  width 100%
+  height 10px
+.s20
+  width 100%
+  height 20px
+.s30
+  width 100%
+  height 30px
+.s40
+  width 100%
+  height 40px
+.s50
+  width 100%
+  height 50px
+//getbootstrap resets/overrides
+.form-control
+  border-radius 1px
+  position relative
+.form-control-feedback
+  position absolute
+  right 18px
+  top -26px
+  z-index 20 !important
+.icon-wrapper
+  position relative
+label
+  color rgba(51,51,51,0.8)
+  font 15px/15px 'mu'
+  position relative
+  min-width 200px
+.username-took,.email-took
+  position absolute
+  top 0
+.username-took
+  left 78px
+.email-took
+  left 46px
+.password-minlength
+  left 78px
+  width 200px
+.astrix-required
+  position absolute
+  top 0
+  left 255px
+  @media only screen and (max-width: 1199px)
+    left 190px
+  @media only screen and (max-width: 991px)
+    left 130px
+  @media only screen and (max-width: 767px)
+    left 119px
+  @media only screen and (max-width: 480px)
+    display none
 body
   padding: 50px
   font: 30px "LeagueG", Helvetica, Arial, sans-serif
 a
   color: #00B7FF
+
+
+
+
+//new navigation
+.new-nav-color-light
+  color rgba(255,255,255,.75)
+  &:hover
+    color rgba(255,255,255,1)
+.new-nav-color-dark
+  color rgba(51,51,51,.4)
+  &:hover
+    color rgba(51,51,51,1)
+.new-nav-color-dark-line
+  border-bottom 3px solid rgba(51,51,51,.1)
+  &:hover
+    border-bottom 3px solid rgba(51,51,51,.6)
+.new-nav-color-light-line
+  border-bottom 3px solid rgba(225,225,225,.3)
+  &:hover
+    border-bottom 3px solid rgba(225,225,225,.6)
+.new-nav
+  -webkit-transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s .5s
+  -moz-transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s .5s
+  -o-transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s .5s
+  transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s .5s
+.new-nav-wrapper
+  position fixed
+  z-index 1000
+  right 50px
+  top 50px
+  ul
+    list-style none
+    opacity 0
+    display inline-block
+    li
+      -webkit-transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s
+      -moz-transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s
+      -o-transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s
+      transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s
+      font 40px/50px 'LeagueG'
+      a
+        text-decoration none
+        text-transform uppercase
+        color inherit
+        display inline
+        p
+          color inherit
+          padding 0 30px 0 0
+          &:hover
+            cursor pointer
+
+
+//top menu old version
+.all
+  -webkit-transition:all 0.3s ease-in-out
+  -moz-transition:all 0.3s ease-in-out
+  -o-transition:all 0.3s ease-in-out
+  -ms-transition:all 0.3s ease-in-out
+  transition:all 0.3s ease-in-out
+.topnav
+  background-color rgba(225,225,225,.3)
+  position fixed
+  top 0
+  left 0
+  right 0
+  border-bottom 1px solid rgba(225,225,225,.4)
+  height 75px
+  z-index 1000
+  a
+    text-decoration none
+  .branding
+    margin 12px auto
+    display table
+    p
+      font 40px/50px 'LeagueG'
+      color white
+      text-transform uppercase
+      span
+        color #e24727
+  .login,.signup,.username,.logout
+    position absolute
+    top 17px
+    background-color rgba(225,225,225,.5)
+    border 1px solid rgba(225,225,225,.6)
+    color rgba(225,225,225,1)
+    &:hover
+      background-color rgba(0,0,0,.5)
+    p
+      font 25px/13px 'LeagueG'
+      text-transform uppercase
+      padding 13px 10px 0 10px
+      color inherit
+      -webkit-font-smoothing antialiased
+      text-shadow 1px 1px 1px rgba(0,0,0,0.004)
+  .login
+    right 130px
+    &:hover
+      color rgba(225,225,225,.8)
+  .signup
+    right 25px
+    &:hover
+      //color rgb(239,78,68)
+      color rgb(33,100,129)
+  .username
+    right 130px
+    &:hover
+      color rgba(225,225,225,.8)
+  .logout
+    right 25px
+    &:hover
+      cursor pointer
+      color rgb(239,78,68)
+
+.fancy-gradient-line-upper
+  top 0
+  height 20px
+.fancy-gradient-line-lower
+  top -9px
+  height 20px
+.fancy-gradient-line-upper,.fancy-gradient-line-lower
+  position absolute
+  z-index -2 !important
+  width 100%
+  border-width 0 0 1px
+  border-image linear-gradient(90deg, hsla(0, 100%, 0%, 0), hsla(0, 100%, 0%, .4) 50%, hsla(0, 100%, 0%, 0) 100%) 5%
+  background-repeat no-repeat
+.signup-box
+  border-width 0 0 1px
+  border-image linear-gradient(90deg, hsla(0, 100%, 0%, 0), hsla(0, 100%, 0%, .4) 50%, hsla(0, 100%, 0%, 0) 100%) 5%
+  //background-color rgb(91,91,91)
+  background-color rgba(255,255,255,.65)
+  margin 0 0 150px 0
+  padding 25px 15px
+  .section-divider-prompt
+    z-index 2
+    position relative
+    .fancy-gradient-cover
+      width 250px
+    .fancy-gradient-cover-2
+      position absolute
+      top 19px
+      left 32.8%
+      width 247px
+      height 2px
+      background-color rgb(213,236,217)
+      z-index -1 !important
+      @media only screen and (max-width: 1199px)
+        left 29.2%
+      @media only screen and (max-width: 991px)
+        left 22.8%
+      @media only screen and (max-width: 767px)
+        left 21.8%
+    .fancy-gradient-cover-3
+      position absolute
+      top 19px
+      left 30.2%
+      width 300px
+      height 2px
+      background-color rgb(213,236,217)
+      z-index -1 !important
+      @media only screen and (max-width: 1199px)
+        left 29.2%
+      @media only screen and (max-width: 991px)
+        left 22.8%
+      @media only screen and (max-width: 767px)
+        left 21.8%
+    .fancy-gradient-cover-upload
+      width 290px
+    .fancy-gradient-cover-social
+      width 320px
+    .fancy-gradient-cover,.fancy-gradient-cover-upload,.fancy-gradient-cover-social,.fancy-who
+      //background-color rgb(91,91,91)
+      //background-color rgba(218,239,219,.98)
+      display table
+      margin 0 auto
+      h3,h4
+        margin 0
+        padding 0
+        color rgba(51,51,51,.8)
+        text-align center
+      h3
+        font 33px/33px 'mu'
+      h4
+        font 18px/38px 'mu'
+.social-sign-on
+  position relative
+  height 40px
+  width 40px
+  display inline-block
+  margin 20px
+  .social-icon
+    position absolute
+    top 0
+    left 0
+    height 40px
+    width 40px
+    background-size 40px 40px
+    background-repeat no-repeat
+    color white
+    &:hover
+      cursor pointer
+    p
+      margin 0
+      padding 8px 0 0 38px
+      font 15px/15px 'mu'
+      color inherit
+.signup-interaction-form
+  height 318px
+  margin 25px 0 0 0
+.signup-interaction-uploader
+  height 330px
+  margin 25px 0
+.pink
+  background-color pink
+.profile-image-uploader
+  height 70px
+  position relative
+  h4
+    font 10px/10px 'mu'
+    color #929292
+.image-uploaded
+  img
+    display table
+    margin 0 auto
+    max-width 200px
+    max-height 200px
+//signup form buttons
+.signup-form-buttons
+  margin 30px 0 0 0
+  a
+    text-decoration none
+  .signup-profile,.signup-submit
+    display inline-block
+    height 50px
+    width 335px
+    background-color rgba(137,195,181,.9)
+    border 1px solid rgba(51,51,51,.15)
+    color rgba(255,255,255,.8)
+    &:hover
+      cursor pointer
+      background-color rgba(84,158,143,.8)
+      color rgba(255,255,255,.8)
+    p
+      margin 0
+      padding 8px 6px 0 6px
+      font 35px/35px 'LeagueG'
+      -webkit-font-smoothing antialiased
+      color inherit
+      text-transform uppercase
+      text-shadow 1px 1px 1px rgba(0,0,0,0.004)
+      text-align center
+      @media only screen and (max-width: 1199px)
+        padding 12px 6px 0 6px
+        font 28px/28px 'LeagueG'
+      @media only screen and (max-width: 991px)
+        padding 14px 6px 0 6px
+        font 20px/20px 'LeagueG'
+      @media only screen and (max-width: 767px)
+        font 16px/16px 'LeagueG'
+    @media only screen and (max-width: 1199px)
+      width 268px
+    @media only screen and (max-width: 991px)
+      width 195px
+    @media only screen and (max-width: 767px)
+      width auto
+
+.terms-of-service-etc
+  p
+    margin 20px 0 0 0
+    a
+      font 10px/10px 'hd'
+      text-decoration none
+      text-transform uppercase
+      color #333
+      padding 10px 16px 0 0
+
+
+.login-mods
+  max-width 400px
+  margin 50px auto
+.question-forgot-password
+  opacity 0
+  margin -85px 0 0 0
+  &:hover
+    opacity 1
+    cursor pointer
+  p
+    -webkit-transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) .75s
+    -moz-transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) .75s
+    -o-transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) .75s
+    transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) .75s
+    opacity inherit
+    font 10px/10px 'hd'
+.opacity-zero
+  opacity 0
+.opacity-one
+  opacity 1
+#icon-question-mark-bk-filled,#icon-interface-filled
+  -webkit-transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) .75s
+  -moz-transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) .75s
+  -o-transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) .75s
+  transition all cubic-bezier(0.250, 0.460, 0.450, 0.940) .75s      
