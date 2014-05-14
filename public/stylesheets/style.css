@@ -1,0 +1,9 @@
+@import 'http://stockickr.com/news/css/screen.css';
+@import 'http://stockickr.com/g/4a6e868cfce70f/stylesheets/f/fonts.css';
+body {
+  padding: 50px;
+  font: 30px "LeagueG", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
