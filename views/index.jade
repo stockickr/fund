@@ -7,7 +7,7 @@ html(lang='en',class='ng-app')
       meta(charset='utf8')
       meta(name='viewport',content='initial-scale=1,width=device-width,maximum-scale=1')
       meta(http-equiv='X-UA-Compatible',content='IE=edge,chrome=1')
-      meta(name='google',content='notranslate')
+      //meta(name='google',content='notranslate')
       //link(rel='stylesheet', href='http://www.mynameischris.co.uk/wp-content/themes/mynameischris/common/css/boilerplate.css', media='screen', type='text/css')
       //Bootstrap core CSS 
       link(href='../../dist/css/bootstrap.min.css', rel='stylesheet')
@@ -19,15 +19,21 @@ html(lang='en',class='ng-app')
     header#header.header.parallax-section-1
         .header-container
           .one_four.logo
-            img(src='http://s3.amazonaws.com/stockickr/assets/images/bloglogo.png', alt='logo')      
+            img(src='http://www.mynameischris.co.uk/wp-content/themes/mynameischris/common/images/logo.svg', alt='logo')
+          .container
+            .main
+              section
+                //button.toggle-menu.menu-right.jPushMenuBtn
+            
           table.featuredText
             tr
               td.strapline(style='vertical-align: middle; text-align: center;')
                 #hero.title-container
-                  h2 UI DESIGN and DEVELOPMENT
-                  
+                  h2 Welcome
+                  .dash
                 h1.intro-text
-                  | A UK web designer and front-end web developer, providing Excellent skills in UI design and WordPress development.
+                  | words
+
                 
     .container
       .blog-header
@@ -178,9 +184,7 @@ html(lang='en',class='ng-app')
           ================================================== 
     //
        Placed at the end of the document so the pages load faster 
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
-    script(src='../../dist/js/bootstrap.min.js')
-    script(src='../../assets/js/docs.min.js')
+    
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js', type='text/javascript')
     script(src='http://www.mynameischris.co.uk/wp-content/themes/mynameischris/common/js/scripts.js', type='text/javascript')    
     script(src='http://www.mynameischris.co.uk/wp-content/themes/mynameischris/common/js/jquery.stellar.min.js', type='text/javascript')
