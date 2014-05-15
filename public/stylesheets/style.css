@@ -75,7 +75,7 @@
 .widerhoe {
   width: 400px;
 }
-sitewrap:before,
+.sitewrap:before,
 .sitewrap:after {
   content: "";
   display: table;
@@ -145,6 +145,18 @@ sitewrap:before,
   text-align: center;
   width: 100%;
   z-index: 900;
+}
+.intro {
+  font-size: 1.3em;
+  line-height: 41px;
+  margin: auto;
+  padding-bottom: 0;
+  padding-top: 50px;
+  text-align: center;
+  width: 90%;
+}
+.intro span {
+  color: #45d8d3;
 }
 .header-container {
   margin: 0 auto;
