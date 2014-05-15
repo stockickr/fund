@@ -12,11 +12,26 @@ html(lang='en',class='ng-app')
       link(href='../../dist/css/bootstrap.min.css', rel='stylesheet')
       //Custom styles for this template 
       link(href='blog.css', rel='stylesheet')
-
-
   
-  body 
-    .container.merica 
+  body
+    .sitewrap
+    header#header.header.parallax-section-1
+        .header-container
+          .one_four.logo
+            img(src='http://s3.amazonaws.com/stockickr/assets/images/bloglogo.png', alt='logo')      
+          table.featuredText
+            tr
+              td.strapline(style='vertical-align: middle; text-align: center;')
+                #hero.title-container
+                  h2 UI DESIGN and DEVELOPMENT
+                  .dash
+                h1.intro-text
+                  | A UK web designer and front-end web developer, providing Excellent skills in UI design and WordPress development.
+                a.intro-btn(href='#mission') LEARN MORE
+                //
+                   <span><a href="#mission"><img class="arrow" src="http://www.mynameischris.co.uk/wp-content/themes/mynameischris/common/images/arrow.png" alt="Arrow"></a></span> 
+ 
+    .container
       .blog-header
         h1.blog-title.centershit.puffit stockickr
         p.puffy
