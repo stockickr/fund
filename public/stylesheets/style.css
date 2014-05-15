@@ -8,13 +8,14 @@
   margin: 0;
 }
 .div1 {
-  float: left;
   width: 400px;
   height: 400px;
-  margin-left: auto;
-  margin-right: auto;
   border: 2px solid;
   border-radius: 25px;
+  text-align: center;
+}
+.centershit {
+  text-align: center;
 }
 .div2 {
   float: left;
@@ -26,6 +27,9 @@
 .donate {
   border: 2px solid;
   border-radius: 25px;
+}
+.puffy {
+  margin-top: 30px;
 }
 .s10 {
   width: 100%;
