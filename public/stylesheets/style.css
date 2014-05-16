@@ -84,12 +84,14 @@
   position: relative;
   font-family: 'dense-regular-webfont';
   text-align: center;
+  color: #fff;
   text-transform: uppercase;
   padding-top: 10%;
   font-size: 100px;
 }
 .wam {
-  background: url("http://businessdaily.co.zw/public/images/articles/Nasdaq.jpg");
+  background: url("http://www.wallprs.com/wp-content/uploads/2014/03/new-york-black-and-white-wallpaper-9.jpg") center center fixed;
+  background-size: cover;
   width: 100%;
 }
 .sitewrap:before,
