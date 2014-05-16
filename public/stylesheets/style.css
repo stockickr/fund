@@ -55,6 +55,9 @@
   margin-right: auto;
   margin-bottom: 200px;
 }
+.getdown {
+  padding-top: 15%;
+}
 .div2 {
   float: left;
   height: 400px;
@@ -81,25 +84,15 @@
   display: table;
 }
 .sitewrap {
-  background: none repeat scroll 0 0 #fff;
+  background: #fff repeat scroll 1 0 0;
 }
 .sitewrap:after {
   clear: both;
 }
-.sitewrap:before,
-.sitewrap:after {
-  content: "";
-  display: table;
-}
-.container {
-  margin: 0 2%;
-  width: 96%;
-  overflow: hidden;
-}
 #header {
   background: url("http://s3.amazonaws.com/stockickr/assets/images/bg/greentessellation.jpg") center center fixed;
   background-size: cover;
-  color: #fff;
+  color: #f00;
   background-position: left top;
   height: 100%;
   width: 100%;
@@ -111,29 +104,42 @@
   position: relative;
   width: 100%;
 }
+.header-container {
+  margin: 0 auto;
+  max-width: 1170px;
+  text-align: center;
+  min-width: 100%;
+  min-height: 50%;
+}
+.strapline {
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.22);
+  opacity: 1;
+  width: 100%;
+}
 .strapline h4 {
-  color: #fff;
+  color: #000;
   font-size: 4em;
   text-align: center;
 }
 .strapline h2 {
-  color: #fff;
+  color: #000;
   font-family: 'proxima_nova_rgbold';
   font-size: 2em;
   letter-spacing: 0.1em;
   margin: 36px auto 20px;
+  text-align: center;
 }
-.strapline .border {
-  font-size: 1.2em;
-  font-family: 'proxima_nova_alt_reg-webfont';
-}
-.strapline-row {
-  margin: 0 !important;
-  overflow: hidden !important;
+.title-container .dash {
+  border-bottom: 3px solid #ccc;
+  margin: 35px auto auto;
+  overflow: visible;
+  width: 30px;
 }
 .intro-text {
+  padding-bottom: 50px;
   clear: both;
-  color: #fff;
+  color: #000;
   font-size: 1.2em;
   font-weight: 400;
   letter-spacing: 0.1em;
@@ -146,25 +152,6 @@
   width: 100%;
   z-index: 900;
 }
-.intro {
-  font-size: 1.3em;
-  line-height: 41px;
-  margin: auto;
-  padding-bottom: 0;
-  padding-top: 50px;
-  text-align: center;
-  width: 90%;
-}
-.intro span {
-  color: #45d8d3;
-}
-.header-container {
-  margin: 0 auto;
-  max-width: 1170px;
-  text-align: center;
-  width: 100%;
-}
-.stockickr-logo,
 .one_four,
 .two_four,
 .three_four,
@@ -188,40 +175,19 @@
   width: 100%;
 }
 .logo {
-  margin-top: -95px !important;
-  opacity: 0;
-}
-.no-js .logo {
-  margin-left: 25px;
-  opacity: 1;
-  position: relative;
-  top: 132px;
-  width: auto;
-  z-index: 4000;
-}
-.grid .one_four,
-.grid .two_four,
-.grid .three_four,
-.grid .four_four,
-.grid .one_three,
-.grid .two_three,
-.grid .three_three,
-.grid .one_two,
-.grid .two_two,
-.grid .two_third,
-.grid .one_third {
-  color: #fff;
+  vertical-align: middle;
+  padding-top: 50px;
 }
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  opacity: 1;
 }
 .featuredText {
-  height: 100%;
+  height: 20%;
   left: 0;
   position: relative;
   text-align: center;
-  top: 0;
   width: 100%;
   z-index: 5;
 }
