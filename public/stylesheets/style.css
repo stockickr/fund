@@ -220,6 +220,9 @@
   background: url("https://dl-web.dropbox.com/get/cloudup-AF908298-420F-4BDB-8E4B-724AE2818A89.png?_subject_uid=143073632&w=AACY_sEMGAn0euoZ3hXBXNMrKpIcMPXgZ-LvBgxU6ZRIRA") center center fixed;
   background-size: cover;
 }
+.bgithover {
+  cursor: pointer;
+}
 .lefty-content {
   position: relative;
   width: 80%;
@@ -237,15 +240,15 @@
 }
 .lefty-content2 {
   position: relative;
-  width: 90%;
+  width: 95%;
   height: 90%;
   margin: 20px 20px 20px 20px;
-  padding: 5px 5px 5px 5px;
+  padding: 15px 15px 15px 15px;
   color: #000;
   font-family: 'Open Sans';
   font-size: 75%;
   letter-spacing: 0.1em;
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: center;
   display: inline-block;
   background-color: rgba(255,255,255,0.95);
