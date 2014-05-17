@@ -19,9 +19,27 @@
   cursor: pointer;
   color: #6a9c75;
 }
+.clearfix {
+  display: inline-block;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  overflow: auto;
+}
+html[xmlns] .clearfix {
+  display: block;
+}
+* html .clearfix {
+  height: 1%;
+}
 .btn-block:hover {
   cursor: pointer;
-  color: #e80c29;
+  color: #000;
 }
 .crowd-page {
   top: 0;
@@ -39,10 +57,9 @@
 }
 .div1 {
   position: relative;
-  max-width: 99%;
-  min-width: 80%;
-  width: 45%;
   height: 100%;
+  max-width: 60%;
+  min-width: 400px;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 3%;
@@ -55,17 +72,11 @@
   overflow: scroll;
 }
 .lefty-content-images {
-  position: relative;
   width: auto;
   height: auto;
   margin: 20px 20px 20px 20px;
   padding: 15px 15px 15px 15px;
-  color: #000;
-  font-family: 'Open Sans';
-  font-size: 75%;
-  letter-spacing: 0.1em;
   border-radius: 15px;
-  text-align: center;
   display: inline-block;
   background-color: rgba(255,255,255,0.95);
   text-transform: none;
@@ -182,8 +193,8 @@
   margin: 0 0 0 0;
 }
 .lefty {
-  float: left;
   position: relative;
+  min-width: 390px;
   width: 69%;
   height: auto;
   margin-left: 0;
@@ -198,7 +209,9 @@
 }
 .righty {
   position: relative;
+  vertical-align: top;
   width: 29%;
+  min-width: 390px;
   height: auto;
   margin-left: 1%;
   margin-right: 0;
@@ -320,8 +333,24 @@
   text-transform: wrap;
   line-height: 100%;
 }
-img {
-  border-radius: 25px;
+.button-content {
+  position: relative;
+  width: 95%;
+  height: 90%;
+  margin: 10px 15px 10px 10px;
+  padding: 15px 15px 15px 15px;
+  padding-right: 15x;
+  color: #e80c29;
+  font-family: 'Open Sans';
+  text-outline: #000;
+  font-size: 100%;
+  letter-spacing: 0.1em;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgba(255,255,255,0.95);
+  text-transform: wrap;
+  line-height: 100%;
 }
 .sitewrap:before,
 .sitewrap:after {
