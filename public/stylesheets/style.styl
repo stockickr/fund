@@ -42,7 +42,9 @@
   text-transform uppercase  
 
 .div1
-  position relative  
+  position relative
+  max-width 99%
+  min-width 80%  
   width 45% 
   height 100%
   margin-left 0
@@ -56,6 +58,26 @@
   background-color rgba(255,255,255,0.01)
   opacity 1
   overflow scroll
+
+.lefty-content-images
+  position relative
+  //padding-top 8%   
+  width auto
+  height auto
+  margin 20px 20px 20px 20px
+  padding 15px 15px 15px 15px 
+  color black
+  font-family 'Open Sans'
+  font-size 75%
+  letter-spacing 0.1em  
+  //border 2px solid white
+  //margin-bottom 3% 
+  border-radius 15px  
+  text-align center  
+  display inline-block
+  background-color rgba(255,255,255,0.95)
+  text-transform none
+
 
 .merica
   border 2px solid
@@ -176,7 +198,7 @@
 .lefty
   float left  
   position relative
-  min-width 550 px  
+  //min-width 550 px  
   width 69% 
   height auto
   margin-left 0
@@ -340,6 +362,16 @@
   background-color rgba(255,255,255,0.95)
   text-transform none
   line-height 100%
+
+.clearfix
+  &:after
+    //content " "
+    visibility hidden
+    display block
+    height 0
+    clear both
+
+
 
 img
   border-radius 25px
