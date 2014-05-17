@@ -15,6 +15,10 @@
   font-weight: 900;
   text-align: center;
 }
+#bgit:hover {
+  cursor: pointer;
+  color: #6a9c75;
+}
 .crowd-page {
   top: 0;
   left: 0;
@@ -186,14 +190,14 @@
 }
 .titles {
   display: inline-block;
-  padding-top: 4.25%;
   width: 80%;
-  height: 100px;
+  height: auto;
   font-family: 'leagueG';
   text-align: center;
   font-size: 250%;
   border-radius: 25px;
   border: 2px solid #fff;
+  line-height: 120%;
 }
 .bleedout-again3 {
   width: 100%;
@@ -219,9 +223,6 @@
 .wam2 {
   background: url("https://dl-web.dropbox.com/get/cloudup-AF908298-420F-4BDB-8E4B-724AE2818A89.png?_subject_uid=143073632&w=AACY_sEMGAn0euoZ3hXBXNMrKpIcMPXgZ-LvBgxU6ZRIRA") center center fixed;
   background-size: cover;
-}
-.bgithover {
-  cursor: pointer;
 }
 .lefty-content {
   position: relative;
