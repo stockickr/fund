@@ -99,24 +99,24 @@
   width: 100%;
   height: 40%;
   position: relative;
-  font-family: 'dense-regular-webfont';
+  font-family: 'leagueG';
   text-align: center;
   color: #fff;
   text-transform: uppercase;
   padding-top: 8%;
-  font-size: 365%;
+  font-size: 500%;
   line-height: 100px;
 }
 .bleedout-again {
   width: 100%;
   height: 40%;
   position: relative;
-  font-family: 'dense-regular-webfont';
+  font-family: 'leagueG';
   text-align: center;
   text-transform: uppercase;
   padding-top: 10%;
-  font-size: 250%;
-  line-height: 50px;
+  font-size: 350%;
+  line-height: 100px;
 }
 .bleedout2 {
   width: 50%;
@@ -157,12 +157,13 @@
 .lefty {
   float: left;
   position: relative;
+  min-width: 550px;
   width: 69%;
-  height: 100%;
+  height: auto;
   margin-left: 0;
   margin-right: 0;
   border: 2px solid;
-  margin-bottom: 3%;
+  margin-bottom: 20px;
   border-radius: 25px;
   text-align: center;
   display: inline-block;
@@ -170,7 +171,6 @@
   opacity: 1;
 }
 .righty {
-  float: right;
   position: relative;
   width: 29%;
   height: 100%;
@@ -211,12 +211,12 @@
   text-transform: uppercase;
 }
 .wam {
-  background: url("http://www.wallprs.com/wp-content/uploads/2014/03/new-york-black-and-white-wallpaper-9.jpg") center center fixed;
+  background: url("https://dl-web.dropbox.com/get/cloudup-AF908298-420F-4BDB-8E4B-724AE2818A89.png?_subject_uid=143073632&w=AACY_sEMGAn0euoZ3hXBXNMrKpIcMPXgZ-LvBgxU6ZRIRA") center center fixed;
   background-size: cover;
   width: 100%;
 }
 .wam2 {
-  background: url("http://www.wallprs.com/wp-content/uploads/2014/03/new-york-black-and-white-wallpaper-9.jpg") center center fixed;
+  background: url("https://dl-web.dropbox.com/get/cloudup-AF908298-420F-4BDB-8E4B-724AE2818A89.png?_subject_uid=143073632&w=AACY_sEMGAn0euoZ3hXBXNMrKpIcMPXgZ-LvBgxU6ZRIRA") center center fixed;
   background-size: cover;
 }
 .lefty-content {
@@ -226,9 +226,8 @@
   margin-left: 0;
   margin-right: 0;
   color: #000;
-  font-family: 'proxima_nova_rgbold';
+  font-family: 'leagueG';
   font-size: 75%;
-  letter-spacing: 0.1em;
   border-radius: 25px;
   text-align: center;
   display: inline-block;
@@ -242,7 +241,7 @@
   margin: 20px;
   padding: 10px;
   color: #000;
-  font-family: 'proxima_nova_rgbold';
+  font-family: 'Open Sans';
   font-size: 75%;
   letter-spacing: 0.1em;
   border-radius: 25px;
