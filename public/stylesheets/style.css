@@ -37,6 +37,7 @@
   margin-right: 0;
   margin-bottom: 3%;
   border-radius: 25px;
+  font-family: 'leagueG';
   text-align: center;
   display: inline-block;
   background-color: rgba(255,255,255,0.01);
@@ -115,14 +116,14 @@
   line-height: 50px;
 }
 .bleedout2 {
-  width: 60%;
+  width: 50%;
   height: 200px;
   position: relative;
   font-family: 'dense-regular-webfont';
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  padding-top: 3%;
+  padding-top: 5%;
   font-size: 40px;
   background-color: rgba(255,255,255,0.01);
 }
@@ -179,10 +180,48 @@
   background-color: rgba(255,255,255,0.5);
   opacity: 1;
 }
+.titles {
+  display: inline-block;
+  padding-top: 4.25%;
+  width: 60%;
+  height: 100px;
+  font-family: 'leagueG';
+  text-align: center;
+  font-size: 250%;
+  border-radius: 25px;
+}
+.bleedout-again3 {
+  width: 100%;
+  height: 10px;
+  position: relative;
+  font-family: 'dense-regular-webfont';
+  text-align: center;
+  text-transform: uppercase;
+}
 .wam {
   background: url("http://www.wallprs.com/wp-content/uploads/2014/03/new-york-black-and-white-wallpaper-9.jpg") center center fixed;
   background-size: cover;
   width: 100%;
+}
+.wam2 {
+  background: url("http://www.wallprs.com/wp-content/uploads/2014/03/new-york-black-and-white-wallpaper-9.jpg") center center fixed;
+  background-size: cover;
+}
+.lefty-content {
+  position: relative;
+  width: 50%;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  color: #000;
+  font-family: 'proxima_nova_rgbold';
+  font-size: 75%;
+  letter-spacing: 0.1em;
+  border-radius: 25px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgba(255,255,255,0.95);
+  text-transform: none;
 }
 .sitewrap:before,
 .sitewrap:after {
