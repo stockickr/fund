@@ -19,6 +19,10 @@
   cursor: pointer;
   color: #6a9c75;
 }
+.btn-block:hover {
+  cursor: pointer;
+  color: #e80c29;
+}
 .crowd-page {
   top: 0;
   left: 0;
@@ -313,14 +317,8 @@
   text-align: center;
   display: inline-block;
   background-color: rgba(255,255,255,0.95);
-  text-transform: none;
+  text-transform: wrap;
   line-height: 100%;
-}
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both;
 }
 img {
   border-radius: 25px;
