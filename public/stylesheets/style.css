@@ -69,7 +69,6 @@ html[xmlns] .clearfix {
   display: inline-block;
   background-color: rgba(255,255,255,0.01);
   opacity: 1;
-  overflow: scroll;
 }
 .lefty-content-images {
   width: auto;
@@ -136,6 +135,7 @@ html[xmlns] .clearfix {
 .bleedout {
   width: 100%;
   height: 40%;
+  min-height: 250px;
   position: relative;
   font-family: 'leagueG';
   text-align: center;
@@ -144,17 +144,21 @@ html[xmlns] .clearfix {
   padding-top: 8%;
   font-size: 500%;
   line-height: 100px;
+  vertical-align: middle;
 }
 .bleedout-again {
   width: 100%;
-  height: 40%;
+  height: auto;
+  min-height: 350px;
   position: relative;
   font-family: 'leagueG';
   text-align: center;
   text-transform: uppercase;
-  padding-top: 10%;
+  margin: 10% 0 3% 0;
   font-size: 350%;
   line-height: 100px;
+  vertical-align: middle;
+  border-radius: 25;
 }
 .bleedout2 {
   width: 50%;
@@ -170,7 +174,7 @@ html[xmlns] .clearfix {
 }
 .bleedout3 {
   width: auto;
-  height: 1800px;
+  height: auto;
   position: relative;
   font-family: 'dense-regular-webfont';
   text-align: center;
@@ -179,6 +183,7 @@ html[xmlns] .clearfix {
   padding-top: 3%;
   padding-bottom: 3%;
   font-size: 40px;
+  overflow: scroll;
 }
 .bleedout-again2 {
   background: url("http://s3.amazonaws.com/stockickr/assets/images/bg/greentessellation.jpg") center center fixed;
@@ -191,6 +196,15 @@ html[xmlns] .clearfix {
 .bottom-logo {
   padding-top: 6%;
   margin: 0 0 0 0;
+  width: auto;
+  height: auto;
+}
+.bottom-logo2 {
+  padding-top: 6%;
+  margin: 0 0 0 0;
+  z-index: 1;
+  position: fixed;
+  float: left;
 }
 .lefty {
   position: relative;
@@ -341,8 +355,6 @@ html[xmlns] .clearfix {
   padding: 15px 15px 15px 15px;
   padding-right: 15x;
   color: #e80c29;
-  font-family: 'Open Sans';
-  text-outline: #000;
   font-size: 100%;
   letter-spacing: 0.1em;
   border-radius: 15px;
@@ -351,6 +363,10 @@ html[xmlns] .clearfix {
   background-color: rgba(255,255,255,0.95);
   text-transform: wrap;
   line-height: 100%;
+}
+.button-content:hover {
+  cursor: pointer;
+  color: #000;
 }
 .sitewrap:before,
 .sitewrap:after {
