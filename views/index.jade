@@ -15,7 +15,8 @@ html(lang='en',class='ng-app')
       .sitewrap
     .main-nav#tiles 
       .menu-logo              
-      img.img-rounded.img-responsive(src='https://dl-web.dropbox.com/get/menu-logo.png?_subject_uid=143073632&w=AAB3oKrXmbOIn2YPksyOkb_k7isnn3Yi9zrvibRnIolpbg', alt='menu logo')    
+      img.img-rounded.img-responsive(src='https://dl-web.dropbox.com/get/menu-logo.png?_subject_uid=143073632&w=AAB3oKrXmbOIn2YPksyOkb_k7isnn3Yi9zrvibRnIolpbg', alt='menu logo')
+      div#new-nav get it    
     header#header.header.parallax-section-1
         .header-container.getdown
           table.featuredText
@@ -175,19 +176,25 @@ html(lang='en',class='ng-app')
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js', type='text/javascript')
     script(src='http://www.mynameischris.co.uk/wp-content/themes/mynameischris/common/js/scripts.js', type='text/javascript')
     //script(src='http://www.mynameischris.co.uk/wp-content/themes/mynameischris/common/js/jquery.stellar.min.js', type='text/javascript')
-    script(src='http://www.mynameischris.co.uk/wp-content/themes/mynameischris/common/js/jquery.smooth-scroll.js', type='text/javascript')
+    //script(src='http://www.mynameischris.co.uk/wp-content/themes/mynameischris/common/js/jquery.smooth-scroll.js', type='text/javascript')
     //script(src='http://www.mynameischris.co.uk/wp-content/themes/mynameischris/common/js/parallax-plugin.js')
     script.
       $('.parallax-section-1').parallax({
       speed : 0.2
       });
     script.
+      $(".main-nav").click(function(){
+        window.location=$(this).show('#new-nav'); 
+        return false;
+      });
+    script.
       tiles = $("#tiles").fadeTo(0, 0);
 
       $(window).scroll(function(d,h) {
-          tiles.each.fadeIn(1,10) (function(i) {
+          tiles.each.fadeIn(0.01) (function(i) {
               a = $(this).offset().top + $(this).height();
               b = $(window).scrollTop() + $(window).height();
               if (a < b) $(this).fadeTo(500,1);
           });
       });
+   
