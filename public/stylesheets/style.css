@@ -58,8 +58,6 @@ html[xmlns] .clearfix {
 .div1 {
   position: relative;
   height: 100%;
-  max-width: 60%;
-  min-width: 400px;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 3%;
@@ -241,34 +239,10 @@ html[xmlns] .clearfix {
   background: #333;
 }
 .lefty {
-  position: relative;
-  min-width: 390px;
-  width: 69%;
-  height: auto;
-  margin-left: 0;
-  margin-right: 0;
-  border: 2px solid;
-  margin-bottom: 20px;
-  border-radius: 25px;
-  text-align: center;
-  display: inline-block;
   background-color: rgba(255,255,255,0.5);
-  opacity: 1;
 }
 .righty {
-  position: relative;
-  vertical-align: top;
-  width: 29%;
-  min-width: 390px;
-  height: auto;
-  margin-left: 1%;
-  margin-right: 0;
-  margin-bottom: 3%;
-  border-radius: 25px;
-  text-align: center;
-  display: inline-block;
   background-color: rgba(255,255,255,0.5);
-  opacity: 1;
 }
 #a1,
 .titles {
