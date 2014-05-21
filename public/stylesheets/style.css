@@ -345,7 +345,7 @@ html[xmlns] .clearfix {
   font-size: 75%;
   letter-spacing: 0.1em;
   border-radius: 15px;
-  text-align: center;
+  text-align: justify;
   display: inline-block;
   background-color: rgba(255,255,255,0.95);
   text-transform: none;
